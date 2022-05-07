@@ -7,6 +7,7 @@ node {
         echo 'Building....'
 	sh 'dotnet --version'
 	echo 'Building new feature'
+	releasenotes()
     }
     stage('Test') {
         echo 'Testing....'
